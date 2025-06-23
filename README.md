@@ -280,6 +280,34 @@ insertion sort worst case speed = O(n2)
 
 selection sort worst case speed = O(n2)
 
+Implementation & Benchmarking (25%)
+
+Benchmarking was done by creating a random list of 10,000 random integers
+
+then making 100 different sublists from the original 10000 integer list
+
+and running the algorithm on each sublist
+
+then this sub list was added to the previous sublist 
+
+ie 
+
+first benchmark - (100/10,000)
+
+second benchmark - (200/10,000)
+
+second benchmark - (300/10,000)
+
+…
+
+This was repeated 100 times until the algorithms were run on the entire list
+
+and each time the algorithms were run the time it took to sort the sublist was calculated and printed in milliseconds,
+
+by simply starting a timer and ending it when the algorithm stops sorting
+
+
+
 ## References
 
 > Udacity (2016) Quicksort – Udacity Technical Interview Prep [YouTube video], published 9 years ago. Available at: https://www.youtube.com/watch?v=kUon6854joI (Accessed: 20 June 2025).
